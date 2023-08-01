@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(66, 11, 129);
+    display:flex;justify-content: center;align-items: center;
+    width:100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: arial;
+}
+
+.wrapper{
+    color:rgb(209, 129, 97);
+    text-align: center;
+    background-color: rgb(129, 29, 99);
+    padding:20px;
+    border-radius: 12px;
+    letter-spacing: 4px;
+}
+
+#second,#tens{
+    font-size: 2em;
+}
+
+button{
+    border-radius: 5px;
+    background: chocolate;
+    color:black;
+    border: solid 2px red;
+    text-decoration: none;
+    cursor:pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin:10px;
+    outline:dotted 2px;
+
+}
+
+button:hover{
+    background-color: yellow;
+    color:rgb(130, 238, 229);
+}
